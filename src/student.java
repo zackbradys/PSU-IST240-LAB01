@@ -1,6 +1,5 @@
 
-public class student
-{
+public class student {
     //Class Variables for Student's
 
     String firstName;
@@ -9,8 +8,7 @@ public class student
     double gpa;
 
     //Constructor Method for Student's
-    public student(String informedFirstName, String informedLastName, int informedAge, double informedGPA)
-    {
+    public student(String informedFirstName, String informedLastName, int informedAge, double informedGPA) {
         firstName = informedFirstName;
         lastName = informedLastName;
         age = informedAge;
@@ -18,38 +16,32 @@ public class student
     }
 
     //Method for Student's Complete Record
-    public String getInfo()
-    {
+    public String getInfo() {
         return "First Name: " + firstName + " / " + "Last Name: " + lastName + " / " + "Age: " + age + " / " + "GPA: " + gpa;
     }
-    
+
     //Method for Student's Full Name
-    public String getName()
-    {
+    public String getName() {
         return firstName + " " + lastName;
     }
-    
+
     //Method for Student's First Name
-    public String getfirstName()
-    {
+    public String getfirstName() {
         return firstName;
     }
-    
+
     //Method for Student's Last Name
-    public String getlastName()
-    {
+    public String getlastName() {
         return lastName;
     }
-    
+
     //Method for Student's Age
-    public int getAge()
-    {
+    public int getAge() {
         return age;
     }
-    
+
     //Method for Student's GPA
-    public double getGPA()
-    {
+    public double getGPA() {
         return gpa;
-    }    
+    }
 }
